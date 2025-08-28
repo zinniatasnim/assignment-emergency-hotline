@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Emergency Services</title>
+    <title>Emergency Hotline</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,20 +12,24 @@
         <nav class="navbar flex-row gap-4 sm:pt-2 pl-6 pr-6 flex justify-between items-center">
             <div class="flex justify-center items-center">
                 <img src="assets/logo.png" alt="" class="h-14 w-14">
-                <h1 class="text-xl p-2 font-bold text-[#006747] ">Emergency <br> Service</h1>
+                <h1 class="text-xl p-2 font-bold text-[#006747]">Emergency <br> Service</h1>
             </div>
             <div class="flex justify-center items-center gap-2">
                 <button class="flex justify-center items-center gap-2 px-4 py-2 bg-green-200 rounded-full text-sm font-bold">
                     <span>0</span>
-                    <img src="assets/heart.png" alt="" class="h-4 w-4 sm:h-4">
+                    <img src="assets/heart.png" alt="" class="h-4 w-4 sm:h-4 ">
                 </button>
                 <button class="flex justify-center items-center gap-2 px-4 py-2 bg-green-200 rounded-full text-sm font-bold">
                     <span>100</span>
-                    <img src="assets/coin.png" alt="" class="h-4 w-4 sm:h-4">
+                    <img src="assets/coin.png" alt="" class="h-4 w-3 sm:h-4 w-4">
                 </button>
-                <button class="flex justify-center items-center gap-1 px-4 py-2 rounded-full bg-green-600 text-white text-sm">
-                    <span>2</span>Copy    
-                </button>
+                <button 
+  class="flex justify-center items-center gap-1 
+         px-4 py-2 rounded-full 
+         bg-green-600 text-sm 
+        text-white sm:text-sm sm:px-4 sm:py-2">
+    <span>2</span>Copy
+</button>
             </div>
         </nav>
         <div class="banner bg-gradient-to-r from-emerald-950 from-25% via-emerald-900 via-50% to-emerald-950 to-75% ">
@@ -34,10 +38,10 @@
             <p class="text-white text-center">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
         </div>
     </header>
-    <main class="main-body">
-        <section class="card-history p-5 flex flex-col sm:flex-row gap-[25px] sm:gap-0 sm:p-[50px]">
-            <div class="card flex flex-col sm:flex-row flex-wrap gap-[25px] sm:w-[70%] ">
-                <div class="card-1 p-4 w-full rounded-xl shadow-md sm:w-[30%]">
+    <section id="card-history" class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8">
+        <section id="card" class="col-span-12 sm:col-span-9 ">
+            <div class="cards grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-5">
+                <div class="card-1 p-4 w-full rounded-xl shadow-md">
                     <div class="flex justify-between items-center">
                         <div class="inline-block relative p-2 bg-[#FFE3E2] rounded-lg">
                         <img src="assets/emergency.png" alt="" height="20px" width="20px">    
@@ -55,7 +59,7 @@
                             <img src="assets/telephone.png" alt="" class="inline-block h-4 w-4 invert">Call</button>       
                     </div>     
                 </div>
-                <div class="card-1 p-4 w-full rounded-xl shadow-md sm:w-[30%]">
+                <div class="card-1 p-4 w-full rounded-xl shadow-md">
                     <div class="flex justify-between items-center">
                         <div class="inline-block relative p-2 bg-[#DFEFFF] rounded-lg">
                         <img src="assets/police.png" alt="" height="20px" width="20px">    
@@ -73,7 +77,7 @@
                             <img src="assets/telephone.png" alt="" class="inline-block h-4 w-4 invert">Call</button>       
                     </div>     
                 </div>
-                <div class="card-1 p-4 w-full rounded-xl shadow-md sm:w-[30%]">
+                <div class="card-1 p-4 w-full rounded-xl shadow-md">
                     <div class="flex justify-between items-center">
                         <div class="inline-block relative p-2 bg-[#FFE3E2] rounded-lg">
                         <img src="assets/fire-service.png" alt="" height="20px" width="20px">    
@@ -91,7 +95,7 @@
                             <img src="assets/telephone.png" alt="" class="inline-block h-4 w-4 invert">Call</button>       
                     </div>     
                 </div>
-                <div class="card-1 p-4 w-full rounded-xl shadow-md sm:w-[30%]">
+                <div class="card-1 p-4 w-full rounded-xl shadow-md">
                     <div class="flex justify-between items-center">
                         <div class="inline-block relative p-2 bg-[#FFE3E2] rounded-lg">
                         <img src="assets/ambulance.png" alt="" height="20px" width="20px">    
@@ -109,7 +113,7 @@
                             <img src="assets/telephone.png" alt="" class="inline-block h-4 w-4 invert">Call</button>       
                     </div>     
                 </div>
-                <div class="card-1 p-4 w-full rounded-xl shadow-md sm:w-[30%]">
+                <div class="card-1 p-4 w-full rounded-xl shadow-md">
                     <div class="flex justify-between items-center">
                         <div class="inline-block relative p-2 bg-[#FFE3E2] rounded-lg">
                         <img src="assets/emergency.png" alt="" height="20px" width="20px">    
@@ -127,7 +131,7 @@
                             <img src="assets/telephone.png" alt="" class="inline-block h-4 w-4 invert">Call</button>       
                     </div>     
                 </div>
-                <div class="card-1 p-4 w-full rounded-xl shadow-md sm:w-[30%]">
+                <div class="card-1 p-4 w-full rounded-xl shadow-md">
                     <div class="flex justify-between items-center">
                         <div class="inline-block relative p-2 bg-[#FFE3E2] rounded-lg">
                         <img src="assets/emergency.png" alt="" height="20px" width="20px">    
@@ -145,7 +149,7 @@
                             <img src="assets/telephone.png" alt="" class="inline-block h-4 w-4 invert">Call</button>       
                     </div>     
                 </div>
-                <div class="card-1 p-4 w-full rounded-xl shadow-md sm:w-[30%]">
+                <div class="card-1 p-4 w-full rounded-xl shadow-md">
                     <div class="flex justify-between items-center">
                         <div class="inline-block relative p-2 bg-[#FFE3E2] rounded-lg">
                         <img src="assets/emergency.png" alt="" height="20px" width="20px">    
@@ -163,7 +167,7 @@
                             <img src="assets/telephone.png" alt="" class="inline-block h-4 w-4 invert">Call</button>       
                     </div>     
                 </div>
-                <div class="card-1 p-4 w-full rounded-xl shadow-md sm:w-[30%]">
+                <div class="card-1 p-4 w-full rounded-xl shadow-md">
                     <div class="flex justify-between items-center">
                         <div class="inline-block relative p-2 bg-[#FFE3E2] rounded-lg">
                         <img src="assets/brac.png" alt="" height="20px" width="20px">    
@@ -181,7 +185,7 @@
                             <img src="assets/telephone.png" alt="" class="inline-block h-4 w-4 invert">Call</button>       
                     </div>     
                 </div>
-                <div class="card-1 p-4 w-full rounded-xl shadow-md sm:w-[30%]">
+                <div class="card-1 p-4 w-full rounded-xl shadow-md">
                     <div class="flex justify-between items-center">
                         <div class="inline-block relative p-2 bg-[#FFE3E2] rounded-lg">
                         <img src="assets/Bangladesh-Railway.png" alt="" height="20px" width="20px">    
@@ -200,8 +204,10 @@
                     </div>     
                 </div>
             </div>
-            <div class="history p-5 rounded-xl shadow-md sm:w-[30%]">
-                <div class="history-header flex justify-between items-center">
+
+        </section>
+        <aside id="history" class="col-span-12 sm:col-span-3 p-5 rounded-xl shadow-md">
+            <div class="history-header flex justify-between items-center">
                     <div class="history-content flex justify-center items-center gap-2">
                         <img src="assets/clock.png" alt="" class="h-5 w-5">
                         <h3 class="font-bold">Call History</h3>
@@ -209,9 +215,8 @@
                         <button class="flex justify-center items-center text-white px-4 py-2 bg-green-600 rounded-full text-sm">
                     Clear 
                 </button>
-                </div>     
-            </div>
-        </section>
-    </main>  
+                </div>
+        </aside>
+    </section>
 </body>
 </html>
