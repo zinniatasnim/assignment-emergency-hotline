@@ -46,7 +46,7 @@ document.getElementById("card").addEventListener("click", function(callButton){
                         </div>
                         <p class="text-sm">${currentTime}</p>
                 </div>`;
-    callHistory .append(newHistory);                
+    callHistory.append(newHistory);                
 
     coin = coin - 20;
     document.getElementById("coin").innerText = coin; 
