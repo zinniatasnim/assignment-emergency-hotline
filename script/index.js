@@ -50,5 +50,8 @@ document.getElementById("card").addEventListener("click", function(callButton){
 
     coin = coin - 20;
     document.getElementById("coin").innerText = coin; 
-       
+
+    const clear = getElement("clear-btn").addEventListener("click",function(){
+        getElement("call-history").innerHTML = "";
+    });
 })
