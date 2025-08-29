@@ -32,10 +32,10 @@
 
   Answer: When an event occurs on an element, the event first happens on the target/child element. Then it goes upward/to its parent elements- then grandparent until it gets the root of the DOM. This is called Event Bubbling. 
   Working Procedures:
-   1. An event occurs on a child element(like:click).
-   2. This click handles the target/child element.
-   3. Then it bubbles up to the parent, then grandparent, and so on, until it reaches the root of the DOM.
-   4. Whatever it gets as EventListener on the way to the root, executes all. 
+   a. An event occurs on a child element(like:click).
+   b. This click handles the target/child element.
+   c. Then it bubbles up to the parent, then grandparent, and so on, until it reaches the root of the DOM.
+   d. Whatever it gets as EventListener on the way to the root, executes all. 
 
 4. What is Event Delegation in JavaScript? Why is it useful?
 
