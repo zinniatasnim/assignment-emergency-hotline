@@ -54,4 +54,27 @@ document.getElementById("card").addEventListener("click", function(callButton){
     const clear = getElement("clear-btn").addEventListener("click",function(){
         getElement("call-history").innerHTML = "";
     });
+
+
+})
+
+let copyCount= 0;
+document.getElementById("card").addEventListener("click", function(copy){
+    let btn2 =copy.target;
+    while(btn2 && !btn2.classList.contains("copy-btn")){
+        btn2 = btn2.parentElement;
+    }
+    if(!btn2) return;
+    let card2 =btn2.parentElement;
+    while(card2 && !card2.classList.contains("card-1")){
+        card2= card2.parentElement;
+    }
+
+    const number2 = card2.querySelector(".serviceNumber").innerText;
+
+    alert("Number Copied" +" "+ number2 );
+    
+    copyCount++;
+    document.getElementById("copy-count").innerText = copyCount;
+
 })
